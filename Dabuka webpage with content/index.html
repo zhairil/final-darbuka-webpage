@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Darbuka</title>
+		<link href="https://fonts.googleapis.com/css?family=Aclonica&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<!--header-->
+		<div class="small-row center">
+			<h1>دربوكة‎ ال<br>The Darbuka</h1>
+		</div>
+		
+		<div class="big-row">
+			<div class="small-column">
+				<img src="images/Darbuka.png" class="contain-img img-center">
+			</div>
+			
+			<div class="big-column">
+				<div class="box-row">
+					<div class="box1">
+						<img src="images/darbuka_map.png" class="map contain-img img-center">
+					</div>
+					<div class="box2 center">
+						<p>The Darbuka is an instrument from Egypt, similarly shaped to a drum. Its name is from the Arabic term “daraba” meaning “to strike”. Darbukas have roots as far back as 1000 BCE, seen in places like Babylonia.</p>
+					</div>
+				</div>
+				<div class="box-row">
+					<div class="box4 contain-img">
+						<img src="images/topdarbuka.png" onclick="document.getElementById('noise1').play();" class="darbuka">
+						<img src="images/topdarbuka.png" onclick="document.getElementById('noise2').play();" class="darbuka">
+						<img src="images/topdarbuka.png" onclick="document.getElementById('noise3').play();" class="darbuka">
+						<audio src="darbuka_sounds/Darbuka2.mp3" id="noise2">
+						<audio src="darbuka_sounds/Darbuka1.mp3" id="noise1">
+						<audio src="darbuka_sounds/Darbuka3.mp3" id="noise3">
+					</div>
+					<div class="box3 center">
+						<p>The Darbuka is cradled in the player’s arms like a football. One hand snaps on the surface on the drum while the other hand strikes the top. The Darbuka is hollow, therefore sound changes as it travels in the inside,  Its conical flair at the bottom contributes to the sound. However, if the Darbuka is play upright on a table, it would make a muffled sound.</p>
+						<p style="margin:2px">Click the drums on the right to hear sounds from the Darbuka</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
