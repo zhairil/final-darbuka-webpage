@@ -37,7 +37,7 @@ p{
 }
 /*defines destop div percentages*/
 .small-row{
-	display:inline-block;
+	display:block;
 	text-align:center;
 	width:100%;
 	height:30%;
