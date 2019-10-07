@@ -16,12 +16,14 @@ p{
 	justify-content:center;
 	font-size: calc(0.5em + 1vw);
 }
+/*image properties for darbuka buttons*/
 .darbuka{
 	width:34%;
 	height:100%;
 	vertical-align: middle;
-    text-align:center
+    	text-align:center
 }
+/*centers and contains elements*/
 .contain-img{
 	max-height:100%;
 	max-width:100%;
@@ -35,7 +37,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 }
-/*defines destop div percentages*/
+/*defines destop div percentages and colors*/
 .small-row{
 	display:block;
 	text-align:center;
@@ -85,7 +87,7 @@ p{
 	color:#f7eccd;/*clay white*/
 }
 .box4{background-image:url("images/wbackground.jpg");}
-/*responsiveness code*/
+/*Responsiveness code for mobile layout. Changes most display properties to block*/
 @media only screen and (max-width:700px){
 	.map{display:none;}
 	.small-row{height:15%;}
@@ -123,7 +125,7 @@ p{
 		height: 25%;
 		width: 100%;}
 	}
-/*further adjusts divs and text size*/
+/*further adjusts divs and text size for small screens*/
 @media only screen and (max-width:400px){
 	p{font-size: calc(0.5em + 1vw);}
 	.darbuka{max-width:30%;}
